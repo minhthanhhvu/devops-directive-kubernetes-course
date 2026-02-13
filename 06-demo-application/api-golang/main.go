@@ -12,6 +12,7 @@ import (
 )
 
 func init() {
+	log.Println("Run Init() function to initialize database connection pool")
 	databaseUrl := os.Getenv("DATABASE_URL")
 	if databaseUrl == "" {
 		content, err := ioutil.ReadFile(os.Getenv("DATABASE_URL_FILE"))
