@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: load-generator
-          image: minhthanhhvu/devops-directive-kubernetes-course-load-generator-python2:foobarbaz
+          image: minhthanhhvu/devops-directive-kubernetes-course-load-generator-python:foobarbaz
           imagePullPolicy: Always
           env:
             - name: API_URL
