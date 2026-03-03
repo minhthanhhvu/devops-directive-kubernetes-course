@@ -7,4 +7,4 @@ deployments:
   - include: services
 
 commonLabels:
-  devopsdirective.com/course: "kubernetes-course"
+  leminhthanh.com/course: "kubernetes-course"

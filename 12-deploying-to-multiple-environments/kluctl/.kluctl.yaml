@@ -11,7 +11,7 @@ targets:
       environment: production
       environmentType: prod
     # Adding a context to .kluctl.yaml helps prevent accidentally deploying to the wrong cluster!
-    context: gke_kubernetes-course-424917_us-central1-a_devops-directive-kubernetes-course-2
+    context: gke_project-3bded169-ecc6-4e03-a6e_asia-southeast1-b_devops-directive-kubernetes-course
 
 args:
   - name: environment
