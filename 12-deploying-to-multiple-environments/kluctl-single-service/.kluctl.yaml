@@ -3,7 +3,7 @@ targets:
     args:
       environment: staging
     # Adding a context to .kluctl.yaml helps prevent accidentally deploying to the wrong cluster!
-    context: do-sgp1-devops-kubernetes-course-staging
+    context: kind-kind
 
   - name: production
     args:
