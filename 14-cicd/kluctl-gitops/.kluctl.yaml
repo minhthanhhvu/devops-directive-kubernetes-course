@@ -4,13 +4,13 @@ targets:
     args:
       cluster_name: staging
     # Adding a context to .kluctl.yaml helps prevent accidentally deploying to the wrong cluster!
-    context: devops-directive-kubernetes-course
+    context: do-sgp1-devops-kubernetes-course-staging
 
   - name: production
     args:
       cluster_name: production
     # Adding a context to .kluctl.yaml helps prevent accidentally deploying to the wrong cluster!
-    context: gke_project-3bded169-ecc6-4e03-a6e_asia-southeast1-b_devops-directive-kubernetes-course
+    context: do-sgp1-devops-kubernetes-course
 
 args:
   # This allows us to deploy the GitOps deployment to different clusters. It is used to include dedicated deployment
