@@ -10,7 +10,7 @@ spec:
     - kind: Rule
       match: Host(`{{ sharedVars.hostName }}`) && PathPrefix(`/api/node`)
       middlewares:
-        - name: strip-api-prefixes
+        - name: strip-api-prefixes-node
       services:
         - kind: Service
           name: api-node
