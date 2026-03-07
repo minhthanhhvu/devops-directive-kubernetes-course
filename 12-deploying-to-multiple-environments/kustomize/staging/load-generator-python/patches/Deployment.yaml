@@ -8,4 +8,4 @@ spec:
     spec:
       containers:
         - name: load-generator
-          image: minhthanhhvu/devops-directive-kubernetes-course-load-generator-python2:STAGING_VERSION
+          image: minhthanhhvu/devops-directive-kubernetes-course-load-generator-python:STAGING_VERSION
